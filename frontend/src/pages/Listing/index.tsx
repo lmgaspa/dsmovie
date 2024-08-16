@@ -24,7 +24,6 @@ function Listing() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
