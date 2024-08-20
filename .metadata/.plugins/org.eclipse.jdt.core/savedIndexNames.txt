@@ -58,7 +58,6 @@ INDEX VERSION 1.134+C:\Users\luhmg\Desktop\temporary_files\dsmovie\.metadata\.pl
 195860195.index
 1561413120.index
 281905575.index
-1965174767.index
 2136383827.index
 1865797976.index
 106390814.index
