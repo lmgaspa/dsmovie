@@ -1,9 +1,13 @@
 package com.devsuperior.dsmovie.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_movie")
+@Table( name = "tb_movie")
 public class Movie {
 
 	@Id
@@ -15,7 +19,7 @@ public class Movie {
 	private String image;
 	
 	public Movie() {
-	}
+}
 
 	public Movie(Long id, String title, Double score, Integer count, String image) {
 		this.id = id;
@@ -64,4 +68,5 @@ public class Movie {
 	public void setImage(String image) {
 		this.image = image;
 	}
+	
 }

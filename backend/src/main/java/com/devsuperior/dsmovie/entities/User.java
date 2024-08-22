@@ -1,9 +1,13 @@
 package com.devsuperior.dsmovie.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_user")
+@Table( name = "tb_user")
 public class User {
 
 	@Id
@@ -12,6 +16,7 @@ public class User {
 	private String email;
 	
 	public User() {
+		
 	}
 
 	public User(Long id, String email) {
@@ -34,7 +39,6 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
 	
 	
 }

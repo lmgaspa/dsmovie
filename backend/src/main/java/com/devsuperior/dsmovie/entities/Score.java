@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_score")
+@Table( name = "tb_score")
 public class Score {
 
 	@EmbeddedId
@@ -23,20 +23,19 @@ public class Score {
 	public void setUser(User user) {
 		id.setUser(user);
 	}
-
+	
 	public ScorePK getId() {
 		return id;
 	}
-
+	
 	public void setId(ScorePK id) {
 		this.id = id;
 	}
-
 	public Double getValue() {
 		return value;
 	}
-
 	public void setValue(Double value) {
 		this.value = value;
 	}
+	
 }

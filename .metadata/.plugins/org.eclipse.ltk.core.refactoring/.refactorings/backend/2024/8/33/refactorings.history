@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;backend/src/main/resources/aplication.test.properties&apos; to &apos;aplication-test.properties&apos;" description="Rename resource &apos;aplication.test.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/aplication.test.properties" name="aplication-test.properties" stamp="1723830375868" updateReferences="true"/>
-</session>
