@@ -1,5 +1,6 @@
 package com.devsuperior.dsmovie.services;
 
+import com.devsuperior.dsmovie.clients.TMDBClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -15,6 +16,9 @@ public class MovieService {
 
 	@Autowired
 	private MovieRepository repository;
+
+	@Autowired
+	private TMDBClient client;
 
 	@Transactional(readOnly = true)
 	public Page<MovieDTO> findAll(Pageable pageable) {
